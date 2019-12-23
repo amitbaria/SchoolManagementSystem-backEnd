@@ -11,6 +11,6 @@ import com.schoo.schoolManagement.model.UserInfo;
 @Repository
 public interface UserInfoRepository extends JpaRepository<UserInfo,Long>{
 
-	 Optional<UserInfo>  findByUserName(String username);
+	 Optional<UserInfo>  findByUserName(String userName);
 	
 }

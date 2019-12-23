@@ -19,7 +19,7 @@ public class UserInfoServiceImp implements UserInfoService{
 	@Autowired 
 	private UserInfoRepository userInfoRepository;
 	
-	@Autowired
+	 @Autowired
      private  PasswordEncoder passwordEncoder;
 	
 	
